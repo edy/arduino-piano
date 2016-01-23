@@ -3,7 +3,7 @@
 #include "led.h"
 
 void enableLED (int led) {
-	// take the LEDS_LATCH_PIN low so
+    // take the LEDS_LATCH_PIN low so
     // the LEDs don't change while you're sending in bits:
     digitalWrite(LEDS_LATCH_PIN, LOW);
 
